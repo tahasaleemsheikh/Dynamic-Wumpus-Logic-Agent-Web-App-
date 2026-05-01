@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dynamic Wumpus Logic Agent</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<h2>Dynamic Wumpus Logic Agent</h2>
+
+<label>Rows:</label>
+<input id="rows" type="number" value="4" min="2" max="10">
+<label>Cols:</label>
+<input id="cols" type="number" value="4" min="2" max="10">
+
+<button onclick="init()">Start</button>
+<button onclick="step()">Next Step</button>
+
+<div id="grid"></div>
+
+<p id="p1"></p>
+<p id="p2"></p>
+<p id="p3"></p>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
